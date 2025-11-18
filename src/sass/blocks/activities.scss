@@ -15,11 +15,11 @@
 	}
 
 	&__text {
-		margin-block-start: 20px;
+		margin-top: 20px;
 		color: $dark;
 		font-size: 16px;
 		font-weight: 400;
-		line-break: normal;
+		line-height: normal;
 
 		&_colored {
 			color: $ceramic;
@@ -37,7 +37,7 @@
 		}
 
 		&__text {
-			margin-block-start: 25px;
+			margin-top: 25px;
 			font-size: 20px;
 		}
 	}
@@ -57,9 +57,11 @@
 
 		&__img {
 			margin-top: 60px;
+		}
 
+		&__text {
 			&_fixed {
-				inline-size: 556px;
+				width: 556px;
 			}
 		}
 	}
