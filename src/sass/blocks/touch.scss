@@ -75,6 +75,7 @@
 	&__check-block {
 		display: flex;
 		align-items: center;
+		cursor: pointer;
 		margin-top: 20px;
 
 		a {
@@ -88,6 +89,26 @@
 		margin-right: 15px;
 		height: 15px;
 		width: 15px;
+		appearance: none;
+		border: 1px solid $dark;
+		border-radius: 3px;
+		background-color: transparent;
+		flex-shrink: 0;
+		transition: all 0.2s ease;
+
+		&:checked {
+			background-color: $dark;
+			border-color: $dark;
+		
+			background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 120%; // Розмір самої галочки всередині квадрата
+		}
+		
+		&:focus {
+			outline: none;
+		}
 	}
 
 	&__btn {
