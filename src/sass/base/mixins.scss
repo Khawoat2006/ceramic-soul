@@ -24,6 +24,18 @@
 	cursor: pointer;
 }
 
+@mixin outline-hover-effect {
+	&:active {
+		outline: 1px solid $ceramic;
+			border: 1px solid $ceramic;
+	}
+
+	&:hover {
+		color: $ceramic;
+		border: 1px solid $ceramic;
+	}
+}
+
 @mixin frame_corner {
 	&::after, &::before {
 		content: "";
