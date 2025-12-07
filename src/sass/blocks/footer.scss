@@ -4,7 +4,7 @@
 	padding: 50px 0 50px 0;
 	background-color: $dark;
 	margin-top: 60px;
-	
+
 	&__header {
 		color: $light;
 		font-size: 16px;
@@ -52,6 +52,14 @@
 			line-height: normal;
 			color: $ui-active;
 		}
+
+		.just-validate-error-field {
+			border-bottom-color: $ui-error;
+
+			&::placeholder {
+				color: $ui-error;
+			}
+		}
 	}
 
 	&__check-block {
@@ -86,7 +94,7 @@
 		&:checked {
 			background-color: $light;
 			border-color: $light;
-		
+
 			background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
 			background-position: center;
 			background-repeat: no-repeat;
@@ -95,6 +103,10 @@
 
 		&:focus {
 			outline: none;
+		}
+
+		&.just-validate-error-field {
+			border-color: $ui-error;
 		}
 	}
 
