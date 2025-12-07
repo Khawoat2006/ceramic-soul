@@ -53,8 +53,8 @@
 			color: $ui-active;
 		}
 
-		.just-validate-error-field {
-			border-bottom-color: $ui-error;
+		&.just-validate-error-field {
+			border-bottom: 1px solid $ui-error;
 
 			&::placeholder {
 				color: $ui-error;
