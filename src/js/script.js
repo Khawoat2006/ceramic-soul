@@ -67,7 +67,9 @@ try {
 
 	// Показуємо перший контент під час завантаження
 	contents.forEach((c, i) => (c.style.display = i === 0 ? "flex" : "none"));
-} catch (e) {}
+} catch (e) {
+	console.error(e);
+}
 
 try {
 	const validator = new JustValidate("form");
@@ -120,7 +122,21 @@ try {
 						".checkbox-error-message"
 					),
 			}
-		);
+		)
+		.onSuccess((event) => {
+			const form = event.currentTarget;
+			const formData = new FormData(form);
+
+			fetch("https://httpbin.org/post", {
+				method: "POST",
+				body: formData,
+			})
+				.then((res) => res.json())
+				.then((data) => {
+					console.log("Success", data);
+					form.reset();
+				});
+		});
 } catch (e) {
 	console.error(e);
 }
