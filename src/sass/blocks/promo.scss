@@ -5,7 +5,7 @@
 	&__wrapper {
 		margin-top: 50px;
 	}
-	
+
 	&__title {
 		padding-inline: 5px;
 		margin-bottom: 40px;
@@ -65,8 +65,14 @@
 			height: 633px;
 			object-fit: cover;
 		}
+
 		&__title {
 			padding-left: 571px;
+		}
+
+		&__cta {
+			animation-name: slideIn;
+			animation-duration: 3s;
 		}
 	}
 }
@@ -91,5 +97,5 @@
 		&__potter {
 			height: 900px;
 		}
-	}	
+	}
 }

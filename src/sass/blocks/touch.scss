@@ -165,6 +165,13 @@
 		&__form {
 			padding-left: 20px;
 		}
+
+		&__vase {
+			animation: wiggle 3s ease-in-out infinite;
+			animation-delay: 1s;
+			opacity: 0;
+			animation-fill-mode: forwards;
+		}
 	}
 }
 
