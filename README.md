@@ -116,7 +116,7 @@ ceramic_soul/
 
 **Marta Okilka**
 
-Designed and Developed with ❤️ for ceramic art.
+Developed with ❤️ for ceramic art.
 
 ---
 
